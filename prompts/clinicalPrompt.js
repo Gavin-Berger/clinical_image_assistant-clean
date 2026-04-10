@@ -26,7 +26,6 @@ Rules:
 - Return JSON only. No markdown. No extra commentary.`;
 
 // This JSON schema forces the model to return the exact structure
-// required by the assignment.
 export const CLINICAL_SCHEMA = {
   type: "object",
   additionalProperties: false,
